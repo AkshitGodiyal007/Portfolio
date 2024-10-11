@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome for Icons -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+        <div class="intro">
+            <h1>Hi, I'm <span>Akshit Godiyal</span></h1>
+            <p>Front-End Developer | HTML | CSS | JavaScript</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+        <div class="graphic-element">
+            <!-- You can add an SVG shape or image here for decoration -->
+            <img src="download.jpg" alt="Decorative Graphic">
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate front-end developer with a strong interest in building responsive and interactive websites.</p>
+            <img src="Porfolio.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+    </section>
+
+    <section id="skills">
+        <center><h2>Skills</h2></center>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="Project1.png" alt="Project 1 Screenshot">
+            <h4>Weather Website</h4>
+            <p>Created a Weather Info Website to check the climatic condition of Particular Website.</p>
+            <a href="https://akshitgodiyal007.github.io/Bharat-Intern-weather/" target="_blank" class="view-project">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="Project2.png" alt="Project 2 Screenshot">
+            <h4>Netflix Clone</h4>
+            <p>Netflix clone for interactivity.</p>
+            <a href="https://akshitgodiyal007.github.io/Bharat-Intern-Netflix/" target="_blank" class="view-project">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/AkshitGodiyal007" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/akshitgodiyal/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Akshit Godiyal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
